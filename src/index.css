@@ -25,3 +25,11 @@ body {
   justify-content: center;
   border: 1px solid black;
 }
+
+.grid {
+  display: grid;
+}
+
+.grid-item {
+  border: 1px solid black;
+}
