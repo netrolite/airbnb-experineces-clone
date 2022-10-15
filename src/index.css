@@ -8,28 +8,3 @@ body {
   font-family: "Poppins", "Sans-Serif";
 }
 
-.header {
-  height: 70px;
-  padding: 0 30px;
-  display: flex;
-  justify-content: flex-start;
-  box-shadow: 0 3px 7.46px rgba(000, 000, 000, 10%);
-}
-
-.logo {
-  width: 82px;
-}
-
-.hero {
-  display: flex;
-  justify-content: center;
-  border: 1px solid black;
-}
-
-.grid {
-  display: grid;
-}
-
-.grid-item {
-  border: 1px solid black;
-}
