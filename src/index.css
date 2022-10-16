@@ -23,5 +23,17 @@ body {
   max-width: 550px;
   width: 100%;
   height: auto;
-  margin: auto;
+  margin: 26px auto 29px auto;
+}
+
+.hero-title {
+  margin-bottom: 16px;
+  font-size: 2.25rem;
+  font-weight: 600;
+}
+
+.hero-text {
+  margin-bottom: 50px;
+  font-size: 1rem;
+  font-weight: 300;
 }
