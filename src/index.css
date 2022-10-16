@@ -21,4 +21,7 @@ body {
 
 .hero-image {
   max-width: 550px;
+  width: 100%;
+  height: auto;
+  margin: auto;
 }
