@@ -23,3 +23,7 @@ body {
   max-width: 450px;
   align-self: center;
 }
+
+.header {
+  display: block;
+}
