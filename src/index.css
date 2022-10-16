@@ -20,7 +20,8 @@ body {
 }
 
 .hero-image {
-  max-width: 450px;
-  align-self: center;
+  max-width: 550px;
+  width: 100%;
+  height: auto;
+  margin: auto;
 }
-
