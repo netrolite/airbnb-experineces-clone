@@ -5,8 +5,10 @@
 }
 
 body {
-  font-family: "Poppins", "Sans-Serif";
+  font-family: "Poppins", serif;
 }
+
+.main { margin: 0 36px; }
 
 .header {
   padding: 22px 30px;
@@ -16,11 +18,10 @@ body {
 .hero {
   display: flex;
   flex-direction: column;
-  margin: 0 36px;
 }
 
 .hero-image {
-  max-width: 550px;
+  max-width: 400px;
   width: 100%;
   height: auto;
   margin: 26px auto 29px auto;
@@ -37,3 +38,61 @@ body {
   font-size: 1rem;
   font-weight: 300;
 }
+
+.cards {
+  display: flex;
+  flex-wrap: nowrap;
+  gap: 18px;
+}
+
+.card-image-container { position: relative; }
+
+.card-image {
+  width: 176px;
+  height: 235px;
+  object-fit: cover;
+}
+
+.badge {
+  position: absolute;
+  top: 6px;
+  left: 6px;
+  padding: 4px 6px;
+  background-color: #FFF;
+  font-size: 10.24px;
+  border-radius: 2px;
+}
+
+.rating {
+  font-size: 0.75rem;
+}
+
+.card-rating-icon {
+  margin-right: 2px;
+  font-size: 14px;
+}
+
+.card-rating-icon, 
+.card-amount-of-ratings,
+.card-country {
+  font-weight: 300;
+  margin-right: 2px;
+}
+.card-rating-number {
+  margin-right: 2px;
+}
+
+.card-amount-of-ratings,
+.card-country { color: #918E9B; }
+
+
+.card-title,
+.price-from, 
+.price-per-what { font-size: 0.75rem; }
+
+.card-title h4 { font-weight: 300; }
+
+.price-from { font-weight: 600; }
+
+.price-per-what { font-weight: 300; }
+
