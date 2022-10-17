@@ -2,47 +2,31 @@ import React from "react";
 import Header from "./components/Header"
 import Hero from "./components/Hero";
 import Card from "./components/Card"
+import data from "./cardsData"
 
 export default function App() {
+    const cardsElements = data.map(item => {
+        console.log(item);
+        return (
+            <Card 
+            img={item.coverImg}
+            rating={item.stats.rating}
+            reviewCount={item.stats.reviewCount}
+            badge={(item.openSpots) ? "Available" : "Sold out"}
+            country={item.location}
+            title={item.title}
+            price={item.price}
+            />
+        )
+    })
+    
     return (
         <>
             <Header />
             <main className="main">
                 <Hero />
                 <div className="cards">
-                    <Card 
-                    img="cardImg3.png"
-                    rating="5.0"
-                    reviewCount="6"
-                    badge="online"
-                    country="USA"
-                    title="Life lessons with Katie Zafferes"
-                    currency="$"
-                    price="200"
-                    unit="hour"
-                    />
-                    <Card 
-                    img="cardImg2.png"
-                    rating="5.0"
-                    reviewCount="6"
-                    badge="sold out"
-                    country="Georgia"
-                    title="Swimming classes"
-                    currency="$"
-                    price="139"
-                    unit="person"
-                    />
-                    <Card 
-                    img="cardImg3.png"
-                    rating="5.0"
-                    reviewCount="6"
-                    badge="online"
-                    country="Zimbabwe"
-                    title="Online safari"
-                    currency="$"
-                    price="139"
-                    unit="person"
-                    />
+                    {cardsElements}
                 </div>
             </main>
         </>

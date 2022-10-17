@@ -50,7 +50,9 @@ body {
   height: 235px;
 }
 
-.card-image-container { position: relative; }
+.card-image-container { 
+  position: relative; 
+}
 
 .card-image {
   width: 176px;
@@ -93,10 +95,10 @@ body {
 
 .card-title,
 .price-from, 
-.price-per-what { font-size: 0.75rem; }
+.price-per-unit { font-size: 0.75rem; }
 
 .card-title h4 { font-weight: 300; }
 
 .price-from { font-weight: 600; }
 
-.price-per-what { font-weight: 300; }
+.price-per-unit { font-weight: 300; }

@@ -26,8 +26,8 @@ export default function Card(props) {
             </div>
 
             <div className="price">
-                <span className="price-from">From {props.currency}{props.price} </span>
-                <span className="price-per-what">/ {props.unit}</span>
+                <span className="price-from">From ${props.price} </span>
+                <span className="price-per-unit">/ person</span>
             </div>
         </div>
     )
