@@ -58,6 +58,7 @@ body {
   width: 176px;
   height: 235px;
   object-fit: cover;
+  border-radius: 10px;
 }
 
 .badge {
