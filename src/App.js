@@ -5,19 +5,21 @@ import Card from "./components/Card"
 import data from "./cardsData"
 
 export default function App() {
-    const cardsElements = data.map(item => {
+    
+    const cards = data.map(item => {
         console.log(item);
         return (
             <Card 
-            img={item.coverImg}
+            title={item.title}
+            country={item.location}
             rating={item.stats.rating}
             reviewCount={item.stats.reviewCount}
-            badge={(item.openSpots) ? "Available" : "Sold out"}
-            country={item.location}
-            title={item.title}
+            img={item.coverImg}
+            badge={item.openSpots ? "available" : "sold out"}
             price={item.price}
+            key={item.id}
             />
-        )
+        ) 
     })
     
     return (
@@ -26,7 +28,7 @@ export default function App() {
             <main className="main">
                 <Hero />
                 <div className="cards">
-                    {cardsElements}
+                    {cards}
                 </div>
             </main>
         </>
