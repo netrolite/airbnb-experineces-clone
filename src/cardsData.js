@@ -37,7 +37,7 @@ const data = [
         },
         location: "Norway",
         openSpots: 3,
-    }
+    },
 ];
 
 export default data;

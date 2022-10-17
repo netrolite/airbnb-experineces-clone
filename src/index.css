@@ -43,11 +43,12 @@ body {
   display: flex;
   flex-wrap: nowrap;
   gap: 18px;
+  margin-right: -36px;
+  overflow: auto;
 }
 
 .card { 
   width: 176px;
-  height: 235px;
 }
 
 .card-image-container { 

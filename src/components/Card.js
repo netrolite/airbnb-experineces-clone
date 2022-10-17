@@ -6,7 +6,9 @@ export default function Card(props) {
     return (
         <div className="card">
             <div className="card-image-container">
-                <div className="badge">{props.badge.toUpperCase()}</div>
+                <div className="badge">
+                    {props.badge.toUpperCase()}
+                </div>
                 <img src={process.env.PUBLIC_URL + "/media/" + props.img}
                 alt="card"
                 className="card-image" />
