@@ -1,6 +1,6 @@
 import React from "react";
 import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
-import { solid, regular } from "@fortawesome/fontawesome-svg-core/import.macro"
+import { solid } from "@fortawesome/fontawesome-svg-core/import.macro"
 import Img1 from "../media/cardImg2.png"
 import Img2 from "../media/cardImg3.png"
 
@@ -12,7 +12,7 @@ export default function Cards() {
                 <div className="card-image-container">
                     <div className="badge">SOLD OUT</div>
                     <img src={Img1} 
-                    alt="card image"
+                    alt="card"
                     className="card-image" />
                 </div>
 
@@ -40,7 +40,7 @@ export default function Cards() {
             <div className="card-image-container">
                     <div className="badge">ONLINE</div>
                     <img src={Img2} 
-                    alt="card image"
+                    alt="card"
                     className="card-image" />
                 </div>
 
@@ -65,7 +65,7 @@ export default function Cards() {
 
             <div className="card">
                 <img src={Img1} 
-                alt="card image"
+                alt="card"
                 className="card-image" />
 
                 <div className="rating">
