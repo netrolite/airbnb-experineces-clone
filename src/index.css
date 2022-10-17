@@ -45,6 +45,11 @@ body {
   gap: 18px;
 }
 
+.card { 
+  width: 176px;
+  height: 235px;
+}
+
 .card-image-container { position: relative; }
 
 .card-image {
@@ -73,16 +78,16 @@ body {
 }
 
 .card-rating-icon, 
-.card-amount-of-ratings,
+.card-review-count,
 .card-country {
   font-weight: 300;
   margin-right: 2px;
 }
-.card-rating-number {
+.card-rating {
   margin-right: 2px;
 }
 
-.card-amount-of-ratings,
+.card-review-count,
 .card-country { color: #918E9B; }
 
 

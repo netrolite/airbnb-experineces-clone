@@ -1,5 +1,5 @@
 import React from "react";
-import Logo from "../media/airbnb-logo.svg"
+import Logo from "../media-static/airbnb-logo.svg"
 
 
 export default function Header() {

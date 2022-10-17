@@ -1,12 +1,11 @@
 import React from "react";
-import Img from "../media/hero-images.png"
-import Img2 from "../media/image2.png"
+import HeroImg from "../media-static/hero-images.png"
 
 export default function Hero() {
     return (
         <div className="hero">
-                <img src={Img}
-                alt="image grid showcasing different experiences"
+                <img src={HeroImg}
+                alt="grid showing different experiences"
                 className="hero-image" />
 
             <h1 className="hero-title">Online experiences</h1>
