@@ -1,4 +1,4 @@
-const data = [
+export default = [
     {
         id: 1,
         title: "Life Lessons with Katie Zaferes",
@@ -39,5 +39,3 @@ const data = [
         openSpots: 3,
     },
 ];
-
-export default data;
